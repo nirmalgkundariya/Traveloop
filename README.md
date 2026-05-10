@@ -129,3 +129,19 @@ User:  test@traveloop.com / test1234
 **Frontend:** React 18, Vite, TailwindCSS, Framer Motion, React Router v6, React Query, React Hook Form, Zod, Recharts, react-beautiful-dnd, Lucide React
 
 **Backend:** Node.js, Express, Prisma ORM, PostgreSQL, JWT (jsonwebtoken), bcryptjs, Helmet, CORS, express-rate-limit, Zod
+
+
+**How To Run**
+
+# 1. Dependencies install karo
+npm run install:all
+
+# 2. .env banao aur DATABASE_URL daalo
+cd server && cp .env.example .env
+
+# 3. DB setup
+npm run db:setup
+npm run db:seed    # optional: test data
+
+# 4. Run karo (root se)
+npm run dev
